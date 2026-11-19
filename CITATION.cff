@@ -19,6 +19,9 @@ version: 2.0.0
 date-released: 2026-11-20
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22307223
+    value: 10.5281/zenodo.24376239
+    description: Zenodo record of version 2.0.0
+  - type: doi
+    value: 10.5281/zenodo.24376238
     description: Concept DOI of the Zenodo record; it resolves to the latest version
 # The analysis code under analysis/ and reproduce.py is licensed MIT; see LICENSE-CODE.

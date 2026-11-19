@@ -237,10 +237,11 @@ scripts.
 
 ## Citation
 
-This deposit is archived at <https://doi.org/10.5281/zenodo.22307223>, a concept DOI that resolves to
-the latest version; this is version 2.0.0. The code repository is <https://github.com/Mercury0828/ancilla-resolved-validation>.
+This deposit is archived on Zenodo. Version 2.0.0 is <https://doi.org/10.5281/zenodo.24376239>, and the
+concept DOI <https://doi.org/10.5281/zenodo.24376238> resolves to the latest version. The code repository is <https://github.com/Mercury0828/ancilla-resolved-validation>.
 Machine-readable metadata is in `CITATION.cff`. Please cite the manuscript alongside it.
 
-Version 2.0.0 accompanies the manuscript under its present title. Against version 1.0.1 it adds the
+Version 2.0.0 accompanies the manuscript under its present title. Against the earlier deposit
+<https://doi.org/10.5281/zenodo.22307224> (version 1.0.1) it adds the
 seven scripts listed under "Analyses added in this version" and `data/layout2.json`, and it
 updates the title and metadata. No data file of version 1.0.1 has changed.
