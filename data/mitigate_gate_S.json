@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "stage 0 structural gate only; no schedule generated, nothing costed"
+}

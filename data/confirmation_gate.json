@@ -1,0 +1,9 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "padding_exact": true,
+  "estimated_charge_s": 221.712047616,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires Gate S and Gate D. PASS here only if both passed."
+}

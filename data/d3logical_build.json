@@ -1,0 +1,115 @@
+{
+  "qpu_seconds_spent": 0,
+  "sub_patch": [
+    37,
+    45,
+    46,
+    47,
+    57
+  ],
+  "sub_idx": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "data": [
+    37,
+    46,
+    57
+  ],
+  "ancillas": [
+    45,
+    47
+  ],
+  "q47": 47,
+  "gaps_ns": [
+    0,
+    288
+  ],
+  "arms": [
+    [
+      "d3_full_g0",
+      0,
+      true,
+      4096,
+      12,
+      5.8132000000000005e-05
+    ],
+    [
+      "d3_alone_g0",
+      0,
+      false,
+      4096,
+      12,
+      5.8132000000000005e-05
+    ],
+    [
+      "d3_full_g288",
+      288,
+      true,
+      4096,
+      12,
+      6.1012000000000005e-05
+    ],
+    [
+      "d3_alone_g288",
+      288,
+      false,
+      4096,
+      12,
+      6.1012000000000005e-05
+    ]
+  ],
+  "profile": {
+    "g0": {
+      "gap_ns": 0,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        44
+      ],
+      "duration_full_s": 5.8132000000000005e-05,
+      "duration_alone_s": 5.8132000000000005e-05
+    },
+    "g288": {
+      "gap_ns": 288,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        620
+      ],
+      "duration_full_s": 6.1012000000000005e-05,
+      "duration_alone_s": 6.1012000000000005e-05
+    }
+  },
+  "shots_per_arm": 393216,
+  "content_hash": {
+    "d3_full_g0": "874c963ee6f4346c",
+    "d3_alone_g0": "2f99a1dc9a5a4872",
+    "d3_full_g288": "51538c3117495185",
+    "d3_alone_g288": "0c6ff2513cda30a9"
+  },
+  "alone_matched": true,
+  "separation_ok": true,
+  "semantics": {
+    "g0_full": true,
+    "g0_alone": true,
+    "g288_full": true,
+    "g288_alone": true
+  },
+  "estimated_charge_s": 131.52815148510518,
+  "n_jobs": 8,
+  "GATE_S": "PASS",
+  "SUBMISSION_STATUS": "BUILT AND GATED, NOT SUBMITTED -- a new design axis (a different code distance); not submitted when this build record was written",
+  "motivation": "the d=5 logical test had 1-6 failures per arm in 131,072 shots and no power; a d=3 memory fails often enough for a logical effect to be measurable",
+  "operating_point_note": "g=288 ns declared is the CENTRE of the qualified seven-gap basin, 620 ns true separation, 5.0 % cycle overhead",
+  "gate_hierarchy": {
+    "D0": "mechanism premise at g=0: theta_b(0) < 0 AND theta_a(0) > 0 under a pre-specified magnitude criterion. The d=3 geometry changes the local syndrome-extraction context and the phenomenon cannot be assumed to survive.",
+    "D1": "detector-level control at the mitigation gap, AND the RETURNED causal separation must lie inside the qualified basin, 428-1068 ns true.",
+    "D2": "logical consequence, interpreted ONLY if D0 and D1 both pass. If D0 fails a logical difference is a gap or duration effect in a different circuit and would look exactly like a logical consequence.",
+    "ordering": "strict; required by design"
+  },
+  "power_note": "at 393,216 shots/arm a rate of 1e-3 gives ~393 failures and a 20 % change near the designed resolution; a rate of 1e-4 gives ~39 failures and an 80 %-power detectable ratio nearer 1.75 than 1.20"
+}

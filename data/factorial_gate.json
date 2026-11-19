@@ -1,0 +1,25 @@
+{
+  "gate": "PASS",
+  "invariant_target_ops": true,
+  "invariant_sentinel_ops": true,
+  "semantics": {
+    "|A|+1=1,Z": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|+1=1,X": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|+1=6,Z": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|+1=6,X": {
+      "distinct": 1,
+      "pass": true
+    }
+  },
+  "qpu_seconds_spent": 0,
+  "note": "A12 family C aggressor factorial. Frequency covariate UNAVAILABLE on this backend."
+}

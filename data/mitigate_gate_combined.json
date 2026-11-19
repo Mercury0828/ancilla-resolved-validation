@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 127.66069626717386,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates. Gate D here is an EQUIVALENCE gate: type-I is the false-CANDIDATE rate, and it carries a power arm."
+}

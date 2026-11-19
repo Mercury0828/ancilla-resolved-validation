@@ -1,0 +1,36 @@
+{
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "title": "Ancilla-Resolved Validation and Timing Control of Concurrent Repetition-Code Memories on a Superconducting Processor -- data and analysis",
+  "description": "<p>Measurement data and analysis code for the manuscript <em>Ancilla-Resolved Validation and Timing Control of Concurrent Repetition-Code Memories on a Superconducting Processor</em>.</p><p>Fourteen hardware campaigns on an IBM Heron processor: design manifests, gate records and results, together with the per-block transition count tables and per-shot syndrome registers from which every reported statistic is computed.</p><p><code>python reproduce.py</code> runs 24 checks against the published values, offline and with no quantum-computing account. Eight are recomputed from the raw counts on every run; fourteen are regenerated on request by the five scripts in <code>analysis/</code>; two are read from a deposited result and compared. Four further scripts in <code>analysis/</code> compute the patch aggregates, the held-out prediction of the syndrome record and the higher-order statistics that the manuscript reports. <code>MANIFEST.sha256</code> carries a SHA-256 for every other file.</p><p>Code is licensed MIT and data CC BY 4.0; see LICENSE-CODE and LICENSE-DATA in the deposit.</p>",
+  "creators": [
+    {
+      "name": "Shen, Jiachen",
+      "affiliation": "University of Houston",
+      "orcid": "0000-0002-7233-497X"
+    },
+    {
+      "name": "Zhong, Hui",
+      "affiliation": "Miami University",
+      "orcid": "0009-0005-7952-007X"
+    }
+  ],
+  "keywords": [
+    "quantum error correction",
+    "stabilizer measurement",
+    "crosstalk",
+    "superconducting qubits",
+    "dynamic circuits",
+    "syndrome extraction"
+  ],
+  "version": "v2.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Mercury0828/ancilla-resolved-validation/tree/v2.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

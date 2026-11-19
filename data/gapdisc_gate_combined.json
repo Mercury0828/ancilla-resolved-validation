@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 77.30164390165547,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates. Gate D carries a detection decision (M0) and an equivalence decision (M1), each gated for type-I and power."
+}

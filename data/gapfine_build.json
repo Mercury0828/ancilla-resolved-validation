@@ -1,0 +1,189 @@
+{
+  "qpu_seconds_spent": 0,
+  "fine_ns": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "q47": 47,
+  "aggressor_ancilla": 96,
+  "arms": [
+    [
+      "g0_alone",
+      0.0,
+      false,
+      2048,
+      16,
+      5.8012000000000006e-05
+    ],
+    [
+      "g0_full",
+      0.0,
+      true,
+      2048,
+      16,
+      5.8132000000000005e-05
+    ],
+    [
+      "g4_alone",
+      4e-06,
+      false,
+      2048,
+      16,
+      9.8132e-05
+    ],
+    [
+      "g4_full",
+      4e-06,
+      true,
+      2048,
+      16,
+      9.8132e-05
+    ],
+    [
+      "f32_alone",
+      3.2e-08,
+      false,
+      512,
+      8,
+      5.8452e-05
+    ],
+    [
+      "f32_full",
+      3.2e-08,
+      true,
+      512,
+      8,
+      5.8452e-05
+    ],
+    [
+      "f64_alone",
+      6.4e-08,
+      false,
+      512,
+      8,
+      5.8772000000000006e-05
+    ],
+    [
+      "f64_full",
+      6.4e-08,
+      true,
+      512,
+      8,
+      5.8772000000000006e-05
+    ],
+    [
+      "f128_alone",
+      1.28e-07,
+      false,
+      512,
+      8,
+      5.9412000000000006e-05
+    ],
+    [
+      "f128_full",
+      1.28e-07,
+      true,
+      512,
+      8,
+      5.9412000000000006e-05
+    ],
+    [
+      "f256_alone",
+      2.56e-07,
+      false,
+      512,
+      8,
+      6.0692e-05
+    ],
+    [
+      "f256_full",
+      2.56e-07,
+      true,
+      512,
+      8,
+      6.0692e-05
+    ]
+  ],
+  "shots_endpoint": 2048,
+  "shots_fine": 512,
+  "endpoint_source": {
+    "g0": "ablation2_manifest.json arms base/full, archived PUBs",
+    "g4": "mitigate_manifest.json arms alone/full, archived PUBs"
+  },
+  "endpoint_measured_gap_s": {
+    "g0_full": 0.0,
+    "g4_full": 4.000000000000001e-06
+  },
+  "endpoint_content_hash": {
+    "g0_alone": "4725e7a8e296d69a",
+    "g0_full": "50d030066d552ea4",
+    "g4_alone": "ac9ef87cdd132a0d",
+    "g4_full": "204efe15fb8e709c"
+  },
+  "fine": {
+    "f32": {
+      "gap_ns": 32,
+      "gap_s": 3.2e-08,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "q47_matched_within_stratum": true,
+      "measured_gap_s": 3.2e-08,
+      "duration_full_s": 5.8452e-05,
+      "duration_alone_s": 5.8452e-05
+    },
+    "f64": {
+      "gap_ns": 64,
+      "gap_s": 6.4e-08,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "q47_matched_within_stratum": true,
+      "measured_gap_s": 6.4e-08,
+      "duration_full_s": 5.8772000000000006e-05,
+      "duration_alone_s": 5.8772000000000006e-05
+    },
+    "f128": {
+      "gap_ns": 128,
+      "gap_s": 1.28e-07,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "q47_matched_within_stratum": true,
+      "measured_gap_s": 1.28e-07,
+      "duration_full_s": 5.9412000000000006e-05,
+      "duration_alone_s": 5.9412000000000006e-05
+    },
+    "f256": {
+      "gap_ns": 256,
+      "gap_s": 2.56e-07,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "q47_matched_within_stratum": true,
+      "measured_gap_s": 2.56e-07,
+      "duration_full_s": 6.0692e-05,
+      "duration_alone_s": 6.0692e-05
+    }
+  },
+  "fine_content_hash": {
+    "f32_full": "9db15d524aea09ac",
+    "f32_alone": "9ee69daf8539491b",
+    "f64_full": "9210bb0c4585212e",
+    "f64_alone": "21062ef7794b2758",
+    "f128_full": "b3f0ebc921528a51",
+    "f128_alone": "4256f0b7f33c5f5e",
+    "f256_full": "9651f23c88b55d10",
+    "f256_alone": "bd696cd438f2b481"
+  },
+  "g4_q47_matched": true,
+  "fine_q47_matched": true,
+  "semantics": {
+    "f32_full": true,
+    "f32_alone": true,
+    "f64_full": true,
+    "f64_alone": true,
+    "f128_full": true,
+    "f128_alone": true,
+    "f256_full": true,
+    "f256_alone": true
+  },
+  "estimated_charge_s": 132.32936015269095,
+  "n_jobs": 8,
+  "GATE_S": "PASS",
+  "purpose": "independent replication of outcome A at higher endpoint allocation, plus the 32-256 ns sweep that locates where between 0 and 250 ns the effect goes"
+}

@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 132.32936015269172,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates. Gate D re-established for this allocation and powered at the measured, smaller displacement."
+}

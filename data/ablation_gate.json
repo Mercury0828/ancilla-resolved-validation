@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "q47 operation-class ablation; target patch ops identical across arms"
+}

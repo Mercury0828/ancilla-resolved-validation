@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "second-level q47 ablation: minimal sufficient condition"
+}

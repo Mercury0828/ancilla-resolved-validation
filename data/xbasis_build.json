@@ -1,0 +1,159 @@
+{
+  "qpu_seconds_spent": 0,
+  "bases": [
+    "Z",
+    "X"
+  ],
+  "gaps_ns": [
+    0,
+    4000
+  ],
+  "q47": 47,
+  "arms": [
+    [
+      "Z_full_g0",
+      0,
+      true,
+      2048,
+      12,
+      5.8132000000000005e-05,
+      "Z"
+    ],
+    [
+      "Z_alone_g0",
+      0,
+      false,
+      2048,
+      12,
+      5.8132000000000005e-05,
+      "Z"
+    ],
+    [
+      "Z_full_g4000",
+      4000,
+      true,
+      2048,
+      12,
+      9.8132e-05,
+      "Z"
+    ],
+    [
+      "Z_alone_g4000",
+      4000,
+      false,
+      2048,
+      12,
+      9.8132e-05,
+      "Z"
+    ],
+    [
+      "X_full_g0",
+      0,
+      true,
+      2048,
+      12,
+      5.8164e-05,
+      "X"
+    ],
+    [
+      "X_alone_g0",
+      0,
+      false,
+      2048,
+      12,
+      5.8164e-05,
+      "X"
+    ],
+    [
+      "X_full_g4000",
+      4000,
+      true,
+      2048,
+      12,
+      9.8164e-05,
+      "X"
+    ],
+    [
+      "X_alone_g4000",
+      4000,
+      false,
+      2048,
+      12,
+      9.8164e-05,
+      "X"
+    ]
+  ],
+  "profile": {
+    "Z_g0": {
+      "basis": "Z",
+      "gap_ns": 0,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        44
+      ],
+      "duration_full_s": 5.8132000000000005e-05,
+      "duration_alone_s": 5.8132000000000005e-05
+    },
+    "Z_g4000": {
+      "basis": "Z",
+      "gap_ns": 4000,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        8044
+      ],
+      "duration_full_s": 9.8132e-05,
+      "duration_alone_s": 9.8132e-05
+    },
+    "X_g0": {
+      "basis": "X",
+      "gap_ns": 0,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        44
+      ],
+      "duration_full_s": 5.8164e-05,
+      "duration_alone_s": 5.8164e-05
+    },
+    "X_g4000": {
+      "basis": "X",
+      "gap_ns": 4000,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        8044
+      ],
+      "duration_full_s": 9.8164e-05,
+      "duration_alone_s": 9.8164e-05
+    }
+  },
+  "content_hash": {
+    "Z_full_g0": "8aaf9189d14ad25c",
+    "Z_alone_g0": "ec0cf52650d210f8",
+    "Z_full_g4000": "204efe15fb8e709c",
+    "Z_alone_g4000": "c4a7eb19fa64b57b",
+    "X_full_g0": "b7a75d5df0ea9b6d",
+    "X_alone_g0": "ff7350dc70679dc8",
+    "X_full_g4000": "30cdc981f0ce8ef1",
+    "X_alone_g4000": "537151366e63b371"
+  },
+  "alone_matched": true,
+  "separation_ok": true,
+  "semantics": {
+    "Z_g0_full": true,
+    "Z_g0_alone": true,
+    "Z_g4000_full": true,
+    "Z_g4000_alone": true,
+    "X_g0_full": true,
+    "X_g0_alone": true,
+    "X_g4000_full": true,
+    "X_g4000_alone": true
+  },
+  "estimated_charge_s": 160.7456731491052,
+  "n_jobs": 8,
+  "GATE_S": "PASS",
+  "SUBMISSION_STATUS": "BUILT AND GATED, NOT SUBMITTED -- a new design axis; not submitted when this build record was written",
+  "purpose": "does the cross-memory interaction depend on the logical basis of the target memory, or only on its measurement/reset context"
+}

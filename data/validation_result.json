@@ -1,0 +1,31 @@
+{
+  "qpu_seconds_spent_this_analysis": 0,
+  "n_cells": 5760,
+  "components": {
+    "var_total": 0.01928356682733184,
+    "var_sampling_known": 0.0040393572609395125,
+    "var_between_config_patch": 0.008127706454253597,
+    "var_between_pub": 0.006691305591013455,
+    "sigma_persistent_pct": 6.394020013507999,
+    "sigma_appearance_pct": 5.149707108247946,
+    "sigma_total_pct": 13.886528301678517
+  },
+  "ICC_config": 0.21201208417103642,
+  "r_split": 0.9425353499636615,
+  "n_split_pairs": 90,
+  "r_cross_job": 0.9614763907710362,
+  "projection": {
+    "se_beta_projected": 0.006673261499407857,
+    "full_load_halfwidth_pct": 6.7583798381169125,
+    "sigma_persistent_contribution_pct": 1.0965653856895072
+  },
+  "sentinel_contrast": {
+    "rate_delay": 0.026677449544270832,
+    "rate_plain": 0.026588578657670454,
+    "relative_difference_pct": 0.33424459330675393,
+    "block_paired_n": 0,
+    "block_clustered_z": NaN
+  },
+  "branch": "A -- run confirmation A, 34 configurations, ~223 s",
+  "confirmation_may_use_plain": false
+}

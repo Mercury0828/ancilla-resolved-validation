@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 61.00129198855171,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates; PASS here only if both passed."
+}

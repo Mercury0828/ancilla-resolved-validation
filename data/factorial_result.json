@@ -1,0 +1,1956 @@
+{
+  "rows": [
+    {
+      "job": 0,
+      "config": [
+        0
+      ],
+      "patch": 0,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.031909772727272724
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2
+      ],
+      "patch": 0,
+      "n_aggressors": 1,
+      "aggressors": [
+        2
+      ],
+      "shots": 100000,
+      "failures": 5,
+      "detector_rate": 0.03172
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2
+      ],
+      "patch": 2,
+      "n_aggressors": 1,
+      "aggressors": [
+        0
+      ],
+      "shots": 100000,
+      "failures": 16,
+      "detector_rate": 0.02175909090909091
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        3
+      ],
+      "patch": 0,
+      "n_aggressors": 1,
+      "aggressors": [
+        3
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.03184818181818182
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        3
+      ],
+      "patch": 3,
+      "n_aggressors": 1,
+      "aggressors": [
+        0
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.020258863636363637
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        3
+      ],
+      "patch": 2,
+      "n_aggressors": 1,
+      "aggressors": [
+        3
+      ],
+      "shots": 100000,
+      "failures": 15,
+      "detector_rate": 0.021158863636363635
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        3
+      ],
+      "patch": 3,
+      "n_aggressors": 1,
+      "aggressors": [
+        2
+      ],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.019860227272727272
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        4
+      ],
+      "patch": 2,
+      "n_aggressors": 1,
+      "aggressors": [
+        4
+      ],
+      "shots": 100000,
+      "failures": 19,
+      "detector_rate": 0.022212045454545453
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 1,
+      "aggressors": [
+        2
+      ],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.0125575
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2,
+        4
+      ],
+      "patch": 0,
+      "n_aggressors": 2,
+      "aggressors": [
+        2,
+        4
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020203863636363638
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2,
+        4
+      ],
+      "patch": 2,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        4
+      ],
+      "shots": 100000,
+      "failures": 27,
+      "detector_rate": 0.022562272727272726
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        2
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.01241590909090909
+    },
+    {
+      "job": 0,
+      "config": [
+        1,
+        3,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 2,
+      "aggressors": [
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.04934818181818182
+    },
+    {
+      "job": 0,
+      "config": [
+        1,
+        3,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 2,
+      "aggressors": [
+        1,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.0203325
+    },
+    {
+      "job": 0,
+      "config": [
+        1,
+        3,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 2,
+      "aggressors": [
+        1,
+        3
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.017768636363636365
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.03166045454545455
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 5,
+      "detector_rate": 0.04823659090909091
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 16,
+      "detector_rate": 0.021927727272727272
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.019892954545454547
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.01758818181818182
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "patch": 0,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.020207272727272726
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "patch": 1,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 11,
+      "detector_rate": 0.04224159090909091
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "patch": 2,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 12,
+      "detector_rate": 0.022530681818181818
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "patch": 3,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.020115681818181817
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.012908181818181819
+    },
+    {
+      "job": 1,
+      "config": [
+        1
+      ],
+      "patch": 1,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.03925568181818182
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1
+      ],
+      "patch": 0,
+      "n_aggressors": 1,
+      "aggressors": [
+        1
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.03159295454545454
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1
+      ],
+      "patch": 1,
+      "n_aggressors": 1,
+      "aggressors": [
+        0
+      ],
+      "shots": 100000,
+      "failures": 11,
+      "detector_rate": 0.03940113636363636
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        4
+      ],
+      "patch": 0,
+      "n_aggressors": 1,
+      "aggressors": [
+        4
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.02006409090909091
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 1,
+      "aggressors": [
+        0
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.013532727272727273
+    },
+    {
+      "job": 1,
+      "config": [
+        1,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 1,
+      "aggressors": [
+        5
+      ],
+      "shots": 100000,
+      "failures": 7,
+      "detector_rate": 0.04552113636363636
+    },
+    {
+      "job": 1,
+      "config": [
+        1,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 1,
+      "aggressors": [
+        1
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.018679318181818182
+    },
+    {
+      "job": 1,
+      "config": [
+        2,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 1,
+      "aggressors": [
+        5
+      ],
+      "shots": 100000,
+      "failures": 14,
+      "detector_rate": 0.024642272727272728
+    },
+    {
+      "job": 1,
+      "config": [
+        2,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 1,
+      "aggressors": [
+        2
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.018527954545454545
+    },
+    {
+      "job": 1,
+      "config": [
+        3,
+        4,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 2,
+      "aggressors": [
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020637954545454546
+    },
+    {
+      "job": 1,
+      "config": [
+        3,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 2,
+      "aggressors": [
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.013359090909090909
+    },
+    {
+      "job": 1,
+      "config": [
+        3,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 2,
+      "aggressors": [
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.018160454545454546
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        3
+      ],
+      "patch": 0,
+      "n_aggressors": 2,
+      "aggressors": [
+        1,
+        3
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.031372727272727274
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        3
+      ],
+      "patch": 1,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        3
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.04243318181818182
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        3
+      ],
+      "patch": 3,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        1
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020566363636363636
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.01980659090909091
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 10,
+      "detector_rate": 0.04419409090909091
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 12,
+      "detector_rate": 0.025005454545454546
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.013479545454545454
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.018142954545454545
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 5,
+      "aggressors": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.02040090909090909
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 5,
+      "aggressors": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 13,
+      "detector_rate": 0.04774295454545455
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 5,
+      "aggressors": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 14,
+      "detector_rate": 0.025569318181818183
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 5,
+      "aggressors": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020403636363636363
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 5,
+      "aggressors": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.01336840909090909
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 5,
+      "aggressors": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 7,
+      "detector_rate": 0.017216363636363637
+    },
+    {
+      "job": 2,
+      "config": [
+        2
+      ],
+      "patch": 2,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 15,
+      "detector_rate": 0.021628863636363637
+    },
+    {
+      "job": 2,
+      "config": [
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.019450454545454545
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 1,
+      "aggressors": [
+        5
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.0315025
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 1,
+      "aggressors": [
+        0
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.019043636363636363
+    },
+    {
+      "job": 2,
+      "config": [
+        1,
+        4
+      ],
+      "patch": 1,
+      "n_aggressors": 1,
+      "aggressors": [
+        4
+      ],
+      "shots": 100000,
+      "failures": 9,
+      "detector_rate": 0.03915977272727273
+    },
+    {
+      "job": 2,
+      "config": [
+        1,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 1,
+      "aggressors": [
+        1
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.013424318181818181
+    },
+    {
+      "job": 2,
+      "config": [
+        3,
+        4
+      ],
+      "patch": 3,
+      "n_aggressors": 1,
+      "aggressors": [
+        4
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020966136363636364
+    },
+    {
+      "job": 2,
+      "config": [
+        3,
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 1,
+      "aggressors": [
+        3
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.013322727272727273
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        2
+      ],
+      "patch": 0,
+      "n_aggressors": 2,
+      "aggressors": [
+        1,
+        2
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.03143795454545455
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        2
+      ],
+      "patch": 1,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        2
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.038235
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        2
+      ],
+      "patch": 2,
+      "n_aggressors": 2,
+      "aggressors": [
+        0,
+        1
+      ],
+      "shots": 100000,
+      "failures": 10,
+      "detector_rate": 0.02170681818181818
+    },
+    {
+      "job": 2,
+      "config": [
+        2,
+        4,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 2,
+      "aggressors": [
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 14,
+      "detector_rate": 0.022236136363636364
+    },
+    {
+      "job": 2,
+      "config": [
+        2,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 2,
+      "aggressors": [
+        2,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.013279772727272727
+    },
+    {
+      "job": 2,
+      "config": [
+        2,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 2,
+      "aggressors": [
+        2,
+        4
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.01882318181818182
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.019921818181818183
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 7,
+      "detector_rate": 0.04903340909090909
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.021009772727272728
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.013294318181818181
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.017657954545454546
+    },
+    {
+      "job": 3,
+      "config": [
+        3
+      ],
+      "patch": 3,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.02014090909090909
+    },
+    {
+      "job": 3,
+      "config": [
+        4
+      ],
+      "patch": 4,
+      "n_aggressors": 0,
+      "aggressors": [],
+      "shots": 100000,
+      "failures": 0,
+      "detector_rate": 0.013311818181818182
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2
+      ],
+      "patch": 1,
+      "n_aggressors": 1,
+      "aggressors": [
+        2
+      ],
+      "shots": 100000,
+      "failures": 7,
+      "detector_rate": 0.038073636363636365
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2
+      ],
+      "patch": 2,
+      "n_aggressors": 1,
+      "aggressors": [
+        1
+      ],
+      "shots": 100000,
+      "failures": 16,
+      "detector_rate": 0.021307727272727273
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        3
+      ],
+      "patch": 1,
+      "n_aggressors": 1,
+      "aggressors": [
+        3
+      ],
+      "shots": 100000,
+      "failures": 8,
+      "detector_rate": 0.04280409090909091
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        3
+      ],
+      "patch": 3,
+      "n_aggressors": 1,
+      "aggressors": [
+        1
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.020516363636363635
+    },
+    {
+      "job": 3,
+      "config": [
+        3,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 1,
+      "aggressors": [
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.019960454545454545
+    },
+    {
+      "job": 3,
+      "config": [
+        3,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 1,
+      "aggressors": [
+        3
+      ],
+      "shots": 100000,
+      "failures": 5,
+      "detector_rate": 0.019029318181818182
+    },
+    {
+      "job": 3,
+      "config": [
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 1,
+      "aggressors": [
+        5
+      ],
+      "shots": 100000,
+      "failures": 5,
+      "detector_rate": 0.013587954545454545
+    },
+    {
+      "job": 3,
+      "config": [
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 1,
+      "aggressors": [
+        4
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.01947727272727273
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 1,
+      "n_aggressors": 4,
+      "aggressors": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 4,
+      "detector_rate": 0.047397045454545456
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 11,
+      "detector_rate": 0.0209925
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.02015931818181818
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.013488636363636364
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 4,
+      "aggressors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 6,
+      "detector_rate": 0.017821363636363635
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 0,
+      "n_aggressors": 4,
+      "aggressors": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.019632727272727274
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 2,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 18,
+      "detector_rate": 0.021493181818181818
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 3,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "shots": 100000,
+      "failures": 1,
+      "detector_rate": 0.02002068181818182
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 4,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "shots": 100000,
+      "failures": 2,
+      "detector_rate": 0.01362840909090909
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "patch": 5,
+      "n_aggressors": 4,
+      "aggressors": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "shots": 100000,
+      "failures": 3,
+      "detector_rate": 0.01856681818181818
+    }
+  ],
+  "sentinels": [
+    {
+      "job": 0,
+      "config": [
+        0
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08978735909822867
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08985718196457326
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        3
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08985484702093398
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        3
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08980864734299517
+    },
+    {
+      "job": 0,
+      "config": [
+        2,
+        4
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08981288244766507
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        2,
+        4
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08981935587761676
+    },
+    {
+      "job": 0,
+      "config": [
+        1,
+        3,
+        5
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08983400966183575
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.08983908212560386
+    },
+    {
+      "job": 0,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.08982925925925928
+    },
+    {
+      "job": 1,
+      "config": [
+        1
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08964890499194847
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.0897827536231884
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        4
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08971674718196458
+    },
+    {
+      "job": 1,
+      "config": [
+        1,
+        5
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.0897410305958132
+    },
+    {
+      "job": 1,
+      "config": [
+        2,
+        5
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08967644122383252
+    },
+    {
+      "job": 1,
+      "config": [
+        3,
+        4,
+        5
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08969412238325282
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        3
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08974885668276972
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.08975004830917874
+    },
+    {
+      "job": 1,
+      "config": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_active": 6,
+      "sentinel_err_per_round": 0.0897579388083736
+    },
+    {
+      "job": 2,
+      "config": [
+        2
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08861135265700484
+    },
+    {
+      "job": 2,
+      "config": [
+        5
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08863608695652174
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        5
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08869938808373591
+    },
+    {
+      "job": 2,
+      "config": [
+        1,
+        4
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08867505636070853
+    },
+    {
+      "job": 2,
+      "config": [
+        3,
+        4
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08869618357487924
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        2
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08874157809983897
+    },
+    {
+      "job": 2,
+      "config": [
+        2,
+        4,
+        5
+      ],
+      "n_active": 3,
+      "sentinel_err_per_round": 0.08858135265700484
+    },
+    {
+      "job": 2,
+      "config": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.088714653784219
+    },
+    {
+      "job": 3,
+      "config": [
+        3
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08943370370370371
+    },
+    {
+      "job": 3,
+      "config": [
+        4
+      ],
+      "n_active": 1,
+      "sentinel_err_per_round": 0.08946777777777777
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08946645732689211
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        3
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08945558776167473
+    },
+    {
+      "job": 3,
+      "config": [
+        3,
+        5
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08944681159420288
+    },
+    {
+      "job": 3,
+      "config": [
+        4,
+        5
+      ],
+      "n_active": 2,
+      "sentinel_err_per_round": 0.08945165861513688
+    },
+    {
+      "job": 3,
+      "config": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.08942692431561997
+    },
+    {
+      "job": 3,
+      "config": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_active": 5,
+      "sentinel_err_per_round": 0.08940132045088567
+    }
+  ],
+  "coef": {
+    "intercept": -10.412349775085337,
+    "patch1": 0.8830413019966772,
+    "patch2": 1.6722850254960324,
+    "patch3": -1.200186962983214,
+    "patch4": -0.4127996944544771,
+    "patch5": 0.22857754525682314,
+    "job1": -0.04734452232793884,
+    "job2": -0.15342282257925552,
+    "job3": -0.04560994444694978,
+    "n_aggressors": 0.00022517904521873646
+  },
+  "se": {
+    "intercept": 0.17930165421083608,
+    "patch1": 0.1830381923803452,
+    "patch2": 0.1671950356847508,
+    "patch3": 0.31803639558930347,
+    "patch4": 0.2445101991811155,
+    "patch5": 0.20773238159732982,
+    "job1": 0.12326347043712092,
+    "job2": 0.13604832659273838,
+    "job3": 0.13269561637128616,
+    "n_aggressors": 0.03077684943410035
+  },
+  "total_shots": 9000000,
+  "total_failures": 469
+}

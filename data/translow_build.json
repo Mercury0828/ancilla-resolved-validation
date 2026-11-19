@@ -1,0 +1,506 @@
+{
+  "qpu_seconds_spent": 0,
+  "arms": [
+    [
+      "q63_p3_a2_full_g0",
+      0,
+      true,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "q63_p3_a2_full_g296",
+      296,
+      true,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "q21_p1_a3_full_g0",
+      0,
+      true,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "q21_p1_a3_full_g296",
+      296,
+      true,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "q1_p1_a0_full_g0",
+      0,
+      true,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "q1_p1_a0_full_g296",
+      296,
+      true,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "q147_p2_a1_full_g0",
+      0,
+      true,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "q147_p2_a1_full_g296",
+      296,
+      true,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "p1_alone_g0",
+      0,
+      false,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "p1_alone_g296",
+      296,
+      false,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "p2_alone_g0",
+      0,
+      false,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "p2_alone_g296",
+      296,
+      false,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "p3_alone_g0",
+      0,
+      false,
+      1024,
+      12,
+      5.8012000000000006e-05
+    ],
+    [
+      "p3_alone_g296",
+      296,
+      false,
+      1024,
+      12,
+      6.0972000000000005e-05
+    ],
+    [
+      "anchor_full_g0",
+      0,
+      true,
+      2048,
+      8,
+      5.8132000000000005e-05
+    ],
+    [
+      "anchor_alone_g0",
+      0,
+      false,
+      2048,
+      8,
+      5.8132000000000005e-05
+    ],
+    [
+      "anchor_full_g288",
+      288,
+      true,
+      2048,
+      8,
+      6.1012000000000005e-05
+    ],
+    [
+      "anchor_alone_g288",
+      288,
+      false,
+      2048,
+      8,
+      6.1012000000000005e-05
+    ]
+  ],
+  "profile": {
+    "q63_p3_a2_full_g0": {
+      "gap_ns": 0,
+      "true_sep_ns": [
+        32
+      ],
+      "target_patch": 3,
+      "aggressor_patch": 2,
+      "duration_s": 5.8012000000000006e-05,
+      "in_basin": null
+    },
+    "q63_p3_a2_full_g296": {
+      "gap_ns": 296,
+      "true_sep_ns": [
+        624
+      ],
+      "target_patch": 3,
+      "aggressor_patch": 2,
+      "duration_s": 6.0972000000000005e-05,
+      "in_basin": true
+    },
+    "q21_p1_a3_full_g0": {
+      "gap_ns": 0,
+      "true_sep_ns": [
+        32
+      ],
+      "target_patch": 1,
+      "aggressor_patch": 3,
+      "duration_s": 5.8012000000000006e-05,
+      "in_basin": null
+    },
+    "q21_p1_a3_full_g296": {
+      "gap_ns": 296,
+      "true_sep_ns": [
+        624
+      ],
+      "target_patch": 1,
+      "aggressor_patch": 3,
+      "duration_s": 6.0972000000000005e-05,
+      "in_basin": true
+    },
+    "q1_p1_a0_full_g0": {
+      "gap_ns": 0,
+      "true_sep_ns": [
+        32
+      ],
+      "target_patch": 1,
+      "aggressor_patch": 0,
+      "duration_s": 5.8012000000000006e-05,
+      "in_basin": null
+    },
+    "q1_p1_a0_full_g296": {
+      "gap_ns": 296,
+      "true_sep_ns": [
+        624
+      ],
+      "target_patch": 1,
+      "aggressor_patch": 0,
+      "duration_s": 6.0972000000000005e-05,
+      "in_basin": true
+    },
+    "q147_p2_a1_full_g0": {
+      "gap_ns": 0,
+      "true_sep_ns": [
+        32
+      ],
+      "target_patch": 2,
+      "aggressor_patch": 1,
+      "duration_s": 5.8012000000000006e-05,
+      "in_basin": null
+    },
+    "q147_p2_a1_full_g296": {
+      "gap_ns": 296,
+      "true_sep_ns": [
+        624
+      ],
+      "target_patch": 2,
+      "aggressor_patch": 1,
+      "duration_s": 6.0972000000000005e-05,
+      "in_basin": true
+    },
+    "p1_alone_g0": {
+      "gap_ns": 0,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 1,
+      "aggressor_patch": null,
+      "duration_s": 5.8012000000000006e-05
+    },
+    "p1_alone_g296": {
+      "gap_ns": 296,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 1,
+      "aggressor_patch": null,
+      "duration_s": 6.0972000000000005e-05
+    },
+    "p2_alone_g0": {
+      "gap_ns": 0,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 2,
+      "aggressor_patch": null,
+      "duration_s": 5.8012000000000006e-05
+    },
+    "p2_alone_g296": {
+      "gap_ns": 296,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 2,
+      "aggressor_patch": null,
+      "duration_s": 6.0972000000000005e-05
+    },
+    "p3_alone_g0": {
+      "gap_ns": 0,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 3,
+      "aggressor_patch": null,
+      "duration_s": 5.8012000000000006e-05
+    },
+    "p3_alone_g296": {
+      "gap_ns": 296,
+      "head_pad_s": 0.0,
+      "matched": true,
+      "target_patch": 3,
+      "aggressor_patch": null,
+      "duration_s": 6.0972000000000005e-05
+    },
+    "anchor_full_g0": {
+      "gap_ns": 0,
+      "true_sep_ns": [
+        44
+      ],
+      "target_patch": 0,
+      "aggressor_patch": 4,
+      "duration_s": 5.8132000000000005e-05,
+      "in_basin": null
+    },
+    "anchor_alone_g0": {
+      "gap_ns": 0,
+      "head_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "target_patch": 0,
+      "aggressor_patch": null,
+      "duration_s": 5.8132000000000005e-05
+    },
+    "anchor_full_g288": {
+      "gap_ns": 288,
+      "true_sep_ns": [
+        620
+      ],
+      "target_patch": 0,
+      "aggressor_patch": 4,
+      "duration_s": 6.1012000000000005e-05,
+      "in_basin": true
+    },
+    "anchor_alone_g288": {
+      "gap_ns": 288,
+      "head_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "target_patch": 0,
+      "aggressor_patch": null,
+      "duration_s": 6.1012000000000005e-05
+    }
+  },
+  "frozen_pairs": [
+    {
+      "key": "q63_p3_a2",
+      "gamma": 0.1286328241368344,
+      "se": 0.007389061342247641,
+      "holm_p": 3.4110883763040377e-66,
+      "sign": "+"
+    },
+    {
+      "key": "q21_p1_a3",
+      "gamma": 0.10374848564059436,
+      "se": 0.007748904325846718,
+      "holm_p": 3.1640828596806245e-39,
+      "sign": "+"
+    },
+    {
+      "key": "q1_p1_a0",
+      "gamma": -0.09626898452825405,
+      "se": 0.00873983847729993,
+      "holm_p": 1.4241694908402487e-26,
+      "sign": "-"
+    },
+    {
+      "key": "q147_p2_a1",
+      "gamma": -0.061528354256913165,
+      "se": 0.00408179172237783,
+      "holm_p": 1.1309890499012229e-49,
+      "sign": "-"
+    }
+  ],
+  "census_low_ns": 296,
+  "anchor_low_ns": 288,
+  "census_true_ns": 624,
+  "anchor_true_ns": 620,
+  "basin_ns": [
+    428,
+    1068
+  ],
+  "census_patches": [
+    [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      19
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      16,
+      23,
+      22,
+      21,
+      20
+    ],
+    [
+      136,
+      143,
+      144,
+      145,
+      146,
+      147,
+      137,
+      127,
+      126
+    ],
+    [
+      40,
+      41,
+      42,
+      43,
+      56,
+      63,
+      62,
+      61,
+      60
+    ]
+  ],
+  "incumbent_patches": [
+    [
+      24,
+      25,
+      37,
+      45,
+      46,
+      47,
+      57,
+      67,
+      66
+    ],
+    [
+      90,
+      91,
+      98,
+      111,
+      110,
+      109,
+      118,
+      129,
+      128
+    ],
+    [
+      18,
+      31,
+      32,
+      33,
+      39,
+      53,
+      52,
+      51,
+      50
+    ],
+    [
+      113,
+      119,
+      133,
+      132,
+      131,
+      138,
+      151,
+      150,
+      149
+    ],
+    [
+      81,
+      82,
+      83,
+      96,
+      103,
+      104,
+      105,
+      106,
+      107
+    ],
+    [
+      78,
+      69,
+      70,
+      71,
+      72,
+      73,
+      79,
+      93,
+      94
+    ]
+  ],
+  "q47": 47,
+  "content_hash": {
+    "q63_p3_a2_full_g0": "f17cc8950213d8eb",
+    "q63_p3_a2_full_g296": "ddbbdae5d4c6f522",
+    "q21_p1_a3_full_g0": "713c1b4284258fe2",
+    "q21_p1_a3_full_g296": "11e03ced6481664b",
+    "q1_p1_a0_full_g0": "a6a93342ed0564b3",
+    "q1_p1_a0_full_g296": "7720374c385541e3",
+    "q147_p2_a1_full_g0": "41aec824e4068ead",
+    "q147_p2_a1_full_g296": "3585da576696aabf",
+    "p1_alone_g0": "643ef0d9b12d77a7",
+    "p1_alone_g296": "54e4fd9d27f40e32",
+    "p2_alone_g0": "65f2faafcbbed699",
+    "p2_alone_g296": "8ca09c846c8edbd4",
+    "p3_alone_g0": "8bc6220c0cc41b83",
+    "p3_alone_g296": "b66f14145cb10aec",
+    "anchor_full_g0": "8aaf9189d14ad25c",
+    "anchor_alone_g0": "7084cfddb99ce23c",
+    "anchor_full_g288": "04ec65ba22625b42",
+    "anchor_alone_g288": "458117a177f38fc3"
+  },
+  "alone_matched": true,
+  "separation_consistent": true,
+  "all_low_arms_in_basin": true,
+  "semantics": {
+    "q63_p3_a2_full_g0": true,
+    "q63_p3_a2_full_g296": true,
+    "q21_p1_a3_full_g0": true,
+    "q21_p1_a3_full_g296": true,
+    "q1_p1_a0_full_g0": true,
+    "q1_p1_a0_full_g296": true
+  },
+  "estimated_charge_s": 154.625538570623,
+  "n_jobs": 8,
+  "eta_primary": 0.5,
+  "eta_secondary": 0.2,
+  "criterion_note": "primary eta 0.50 is the SAME threshold the high-gap transport used, so the two runs are directly comparable. The stricter 0.20 is declared here as a NEW PROSPECTIVE secondary criterion, before any data, because tightening a success threshold after seeing the q47 basin would otherwise be a post-hoc choice.",
+  "axis_note": "the two layouts need DIFFERENT declared gaps to reach the same true separation: census offset 32 ns, A12 offset 44 ns. 294 ns would give exactly 620 ns on the census layout but is 73.5 dt and inexpressible, so the census arms sit at 624 ns against the anchors' 620 ns. The 4 ns difference is negligible against a 640 ns basin and is recorded rather than implied away.",
+  "GATE_S": "PASS"
+}

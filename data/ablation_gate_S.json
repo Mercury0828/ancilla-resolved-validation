@@ -1,0 +1,75 @@
+{
+  "invariant_target_ops_identical": true,
+  "violations": [],
+  "decoder_self_test": {
+    "got": {
+      "clean": 0,
+      "single_data_error": 0,
+      "single_meas_error": 0,
+      "three_data_errors": 1,
+      "two_data_errors_boundary": 0
+    },
+    "expected": {
+      "clean": 0,
+      "single_data_error": 0,
+      "single_meas_error": 0,
+      "three_data_errors": 1,
+      "two_data_errors_boundary": 0
+    },
+    "pass": {
+      "clean": true,
+      "single_data_error": true,
+      "single_meas_error": true,
+      "three_data_errors": true,
+      "two_data_errors_boundary": true
+    }
+  },
+  "decoder_negative_case_present": true,
+  "pad_reproduces_full_q47_idle": true,
+  "profile": {
+    "base": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "full": {
+      "duration_s": 5.8132000000000005e-05,
+      "q47_idle_s": 2.7720000000000003e-06
+    },
+    "cx": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "mr": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "drive": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "idle": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "pad": {
+      "duration_s": 5.8132000000000005e-05,
+      "q47_idle_s": 2.7720000000000003e-06
+    },
+    "ctrl1": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    },
+    "ctrl3": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06
+    }
+  },
+  "layout_health": {
+    "layout": "FROZEN to A12",
+    "patch_qubits_under_5pct": 54,
+    "n_patch_qubits": 54,
+    "worst_patch_readout": 0.0262451171875,
+    "q47_readout": 0.0057373046875
+  },
+  "GATE_S": "PASS"
+}

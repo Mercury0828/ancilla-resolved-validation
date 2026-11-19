@@ -1,0 +1,59 @@
+{
+  "qpu_seconds_spent": 0,
+  "source": "census4_result.json, frozen before any mitigation datum exists",
+  "selection_rule": {
+    "survive_holm_at": 0.05,
+    "per_sign": 2,
+    "ranked_by": "absolute gamma within sign"
+  },
+  "n_surviving_holm": 6,
+  "n_positive": 4,
+  "n_negative": 2,
+  "short_of_rule": false,
+  "frozen_pairs": [
+    {
+      "key": "q63_p3_a2",
+      "gamma": 0.1286328241368344,
+      "se": 0.007389061342247641,
+      "holm_p": 3.4110883763040377e-66,
+      "sign": "+"
+    },
+    {
+      "key": "q21_p1_a3",
+      "gamma": 0.10374848564059436,
+      "se": 0.007748904325846718,
+      "holm_p": 3.1640828596806245e-39,
+      "sign": "+"
+    },
+    {
+      "key": "q1_p1_a0",
+      "gamma": -0.09626898452825405,
+      "se": 0.00873983847729993,
+      "holm_p": 1.4241694908402487e-26,
+      "sign": "-"
+    },
+    {
+      "key": "q147_p2_a1",
+      "gamma": -0.061528354256913165,
+      "se": 0.00408179172237783,
+      "holm_p": 1.1309890499012229e-49,
+      "sign": "-"
+    }
+  ],
+  "incumbent_anchor": {
+    "target": "q47",
+    "aggressor_patch": 4,
+    "layout": "frozen A12"
+  },
+  "stage2_statistic": {
+    "H": "sum over frozen pairs of w_s * gamma_s^2",
+    "requirement": "U_0.95(H_mit / H_base) < 0.5",
+    "why_magnitude": "the phenomenon carries both signs; an average signed response would let cancellation masquerade as mitigation, and suppressing only the beneficial-sign q47 reduction would not count as control",
+    "additional_guards": [
+      "no practically important increase in average syndrome error",
+      "aggressor-patch detector rate",
+      "target-patch detector rate",
+      "logical error where estimable"
+    ]
+  }
+}

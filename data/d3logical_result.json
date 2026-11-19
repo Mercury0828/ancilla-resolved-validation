@@ -1,0 +1,53 @@
+{
+  "qpu_seconds_spent_this_analysis": 0,
+  "n_pubs": 384,
+  "theta_b_0": 0.07776995410562416,
+  "theta_a_0": -0.06434665724187516,
+  "U95_b_0": 0.08950181470244878,
+  "L95_a_0": -0.10263346873833885,
+  "theta_b_gap": 0.013329763761876187,
+  "theta_a_gap": 0.020011466287595037,
+  "U95_ratio_b": NaN,
+  "U95_ratio_a": NaN,
+  "true_sep_ns": [
+    620
+  ],
+  "in_basin": true,
+  "D0": false,
+  "D1": false,
+  "D2_interpreted": false,
+  "logical": {
+    "alone_g0": {
+      "shots": 393216,
+      "failures": 38,
+      "ler": 9.663899739583333e-05,
+      "lo": 7.041200216023057e-05,
+      "hi": 0.00013263370294744372
+    },
+    "full_g0": {
+      "shots": 393216,
+      "failures": 32,
+      "ler": 8.138020833333333e-05,
+      "lo": 5.764881876351938e-05,
+      "hi": 0.00011487960636364237
+    },
+    "alone_g288": {
+      "shots": 393216,
+      "failures": 30,
+      "ler": 7.62939453125e-05,
+      "lo": 5.344429528406425e-05,
+      "hi": 0.00010891170318292666
+    },
+    "full_g288": {
+      "shots": 393216,
+      "failures": 39,
+      "ler": 9.918212890625e-05,
+      "lo": 7.255841602307071e-05,
+      "hi": 0.000135573502414689
+    }
+  },
+  "detectable_ratio": 2.0145583696751634,
+  "resolvable_20pct": false,
+  "verdict": "D0 FAILED: the mechanism does not survive the d=3 geometry",
+  "n_bootstrap": 4000
+}

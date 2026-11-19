@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 168.53430246993508,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates. Gate D decides a magnitude statistic on the 95 % upper bound, with eta frozen before any mitigation datum existed."
+}

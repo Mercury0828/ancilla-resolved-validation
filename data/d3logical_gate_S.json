@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "d=3 logical campaign built and gated; not yet submitted when this record was written"
+}

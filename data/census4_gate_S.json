@@ -1,0 +1,79 @@
+{
+  "invariant_target_ops_identical": true,
+  "violations": [],
+  "semantics": {
+    "|A|=0,Z": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|=0,X": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|=3,Z": {
+      "distinct": 1,
+      "pass": true
+    },
+    "|A|=3,X": {
+      "distinct": 1,
+      "pass": true
+    }
+  },
+  "decoder_self_test": {
+    "pass": {
+      "clean": true,
+      "single_data_error": true,
+      "single_meas_error": true,
+      "three_data_errors": true,
+      "two_data_errors_boundary": true
+    }
+  },
+  "duration_spread_pct": 0.0,
+  "layout_health": {
+    "n_patch_qubits": 36,
+    "under_5pct": 35,
+    "worst_readout": 0.050048828125
+  },
+  "provenance": {
+    "ancillas": [
+      9,
+      11,
+      13,
+      15,
+      1,
+      3,
+      23,
+      21,
+      143,
+      145,
+      147,
+      127,
+      41,
+      43,
+      63,
+      61
+    ],
+    "were_incumbent_sentinels": [
+      1,
+      3,
+      9,
+      13,
+      15,
+      21,
+      41,
+      43,
+      61,
+      63,
+      145
+    ],
+    "never_in_any_incumbent_role": [
+      11,
+      23,
+      127,
+      143,
+      147
+    ],
+    "overlap_with_incumbent_patches": []
+  },
+  "GATE_S": "PASS"
+}

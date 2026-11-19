@@ -1,0 +1,8 @@
+{
+  "gate": "PASS",
+  "gate_S": "PASS",
+  "gate_D": "PASS",
+  "estimated_charge_s": 211.73444018855554,
+  "qpu_seconds_spent": 0,
+  "note": "A13 requires both gates. Gate D requires three adjacent gaps under the threshold and is powered against a narrow basin, not a flat zero."
+}

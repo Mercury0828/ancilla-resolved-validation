@@ -1,0 +1,44 @@
+{
+  "note": "verification only; frozen artefacts untouched; estimator unchanged",
+  "NBOOT": 4000,
+  "campaigns": {
+    "transport, low arm 4 us": {
+      "R_point": 0.059444256418940564,
+      "H0": 0.08388578026274476,
+      "Hlow": 0.004986527831841503,
+      "eta": 0.5,
+      "n_pair_units": 768,
+      "n_blocks": 96,
+      "draw_pair_units_as_frozen": {
+        "U95": 0.329237569530122,
+        "passes_eta": true,
+        "boot_median": 0.11598342640524131
+      },
+      "draw_blocks": {
+        "U95": 0.32208567099831514,
+        "passes_eta": true,
+        "boot_median": 0.11352876695948422
+      },
+      "frozen_published_U95": 0.316963
+    },
+    "translow, low arm 624 ns": {
+      "R_point": 0.035282491669819276,
+      "H0": 0.10205991240695354,
+      "Hlow": 0.0036009280093208234,
+      "eta": 0.5,
+      "n_pair_units": 768,
+      "n_blocks": 96,
+      "draw_pair_units_as_frozen": {
+        "U95": 0.21613011347444283,
+        "passes_eta": true,
+        "boot_median": 0.08866324344853457
+      },
+      "draw_blocks": {
+        "U95": 0.22213055594185607,
+        "passes_eta": true,
+        "boot_median": 0.08795013368398791
+      },
+      "frozen_published_U95": 0.216738
+    }
+  }
+}

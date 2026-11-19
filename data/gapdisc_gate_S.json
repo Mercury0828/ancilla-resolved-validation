@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "paired gap discriminator; comparison is within a gap stratum, never across"
+}

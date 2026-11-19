@@ -1,0 +1,101 @@
+{
+  "qpu_seconds_spent": 0,
+  "gaps_us": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "endpoints_us": [
+    0.0,
+    4.0
+  ],
+  "q47": 47,
+  "aggressor_ancilla": 96,
+  "endpoint_source": {
+    "g0": "ablation2_manifest.json arms base/full, archived PUBs",
+    "g4": "mitigate_manifest.json arms alone/full, archived PUBs"
+  },
+  "endpoint_duration_s": {
+    "g0_alone": 5.8012000000000006e-05,
+    "g0_full": 5.8132000000000005e-05,
+    "g4_alone": 9.8132e-05,
+    "g4_full": 9.8132e-05
+  },
+  "endpoint_measured_gap_s": {
+    "g0_full": 0.0,
+    "g4_full": 4.000000000000001e-06
+  },
+  "endpoint_content_hash": {
+    "g0_alone": "4725e7a8e296d69a",
+    "g0_full": "50d030066d552ea4",
+    "g4_alone": "ac9ef87cdd132a0d",
+    "g4_full": "204efe15fb8e709c"
+  },
+  "interior": {
+    "g0p25": {
+      "gap_us": 0.25,
+      "q47_matched_within_stratum": true,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "measured_gap_s": 2.48e-07,
+      "duration_full_s": 6.0612e-05,
+      "duration_alone_s": 6.0612e-05
+    },
+    "g0p5": {
+      "gap_us": 0.5,
+      "q47_matched_within_stratum": true,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "measured_gap_s": 5.000000000000001e-07,
+      "duration_full_s": 6.3132e-05,
+      "duration_alone_s": 6.3132e-05
+    },
+    "g1p0": {
+      "gap_us": 1.0,
+      "q47_matched_within_stratum": true,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "measured_gap_s": 1.0000000000000002e-06,
+      "duration_full_s": 6.8132e-05,
+      "duration_alone_s": 6.8132e-05
+    },
+    "g2p0": {
+      "gap_us": 2.0,
+      "q47_matched_within_stratum": true,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "measured_gap_s": 2.0000000000000003e-06,
+      "duration_full_s": 7.8132e-05,
+      "duration_alone_s": 7.8132e-05
+    }
+  },
+  "interior_content_hash": {
+    "g0p25_full": "d52dca18ec8b9f7f",
+    "g0p25_alone": "ccb99066aa6e4bc8",
+    "g0p5_full": "48217130a179d836",
+    "g0p5_alone": "17c73d663726f8f9",
+    "g1p0_full": "447605b070060137",
+    "g1p0_alone": "0856c97e42d7e532",
+    "g2p0_full": "fa14a73b270fe71e",
+    "g2p0_alone": "96f5f34cde4eebaf"
+  },
+  "g0_q47_matched": false,
+  "g4_q47_matched": true,
+  "interior_q47_matched": true,
+  "semantics": {
+    "g0.25_full": true,
+    "g0.25_alone": true,
+    "g0.5_full": true,
+    "g0.5_alone": true,
+    "g1.0_full": true,
+    "g1.0_alone": true,
+    "g2.0_full": true,
+    "g2.0_alone": true
+  },
+  "GATE_S": "PASS",
+  "outcomes": {
+    "A": "effect at g=0, absent at g=4 -> gap is a mitigation",
+    "B": "absent at g=0 -> q47 response inactive in the current device state",
+    "C": "present at both -> something else abolished the screen's premise",
+    "D": "only one component attenuates -> partial, no common timescale"
+  }
+}

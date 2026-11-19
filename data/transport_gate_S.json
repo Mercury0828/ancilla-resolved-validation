@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "transport to the frozen census pairs with embedded q47 anchors; magnitude statistic, within-stratum comparison only"
+}

@@ -1,0 +1,19 @@
+{
+  "note": "verification only; d3logical_result.json untouched",
+  "NBOOT": 4000,
+  "gap_ns_declared": 288,
+  "theta_b_0": 0.07776995410562416,
+  "theta_a_0": -0.06434665724187516,
+  "theta_b_gap": 0.013329763761876187,
+  "theta_a_gap": 0.020011466287595037,
+  "draw_g0_units_as_frozen": {
+    "U95_ratio_b": NaN,
+    "U95_ratio_a": NaN,
+    "finite_replicates": 0
+  },
+  "draw_blocks": {
+    "U95_ratio_b": 0.32643649923075807,
+    "U95_ratio_a": 1.3823668224449561,
+    "finite_replicates": 4000
+  }
+}

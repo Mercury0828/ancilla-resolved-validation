@@ -1,0 +1,214 @@
+{
+  "qpu_seconds_spent": 0,
+  "arms_built": [
+    "alone",
+    "full",
+    "noreset",
+    "pre_0p25",
+    "pre_0p5",
+    "pre_1p0",
+    "pre_2p0",
+    "pre_4p0",
+    "post_0p25",
+    "post_0p5",
+    "post_1p0",
+    "post_2p0",
+    "post_4p0",
+    "condx",
+    "altorder",
+    "ctrl_p1"
+  ],
+  "arms_in_screen": [
+    "alone",
+    "full",
+    "noreset",
+    "pre_0p25",
+    "pre_0p5",
+    "pre_1p0",
+    "pre_2p0",
+    "pre_4p0",
+    "post_0p25",
+    "post_0p5",
+    "post_1p0",
+    "post_2p0",
+    "post_4p0",
+    "altorder",
+    "ctrl_p1"
+  ],
+  "reference_arm": "alone",
+  "unmitigated_arm": "full",
+  "excluded": {
+    "condx": "dynamic circuit: ALAP raises TranspilerError, so it cannot be duration-matched to the static arms and the constant-duration cost model does not apply"
+  },
+  "rounds": 10,
+  "deltas_us": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "aggressor": 4,
+  "control_patch": 1,
+  "q47": 47,
+  "profile": {
+    "alone": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 515,
+      "filler_s": 4.012e-06,
+      "q47_pad_s": 4.012e-06,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "full": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 905,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "noreset": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 875,
+      "filler_s": 2.684e-06,
+      "q47_pad_s": 2.684e-06,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "pre_0p25": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "pre_0p5": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "pre_1p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "pre_2p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "pre_4p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 905,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "post_0p25": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "post_0p5": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "post_1p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "post_2p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 995,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "post_4p0": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 905,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "condx": {
+      "duration_s": null,
+      "q47_idle_s": null,
+      "n_ops": 905,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": false,
+      "dynamic": true
+    },
+    "altorder": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 905,
+      "filler_s": 0.0,
+      "q47_pad_s": 0.0,
+      "schedulable": true,
+      "dynamic": false
+    },
+    "ctrl_p1": {
+      "duration_s": 9.8132e-05,
+      "q47_idle_s": 4.2772e-05,
+      "n_ops": 915,
+      "filler_s": 1.2000000000000002e-08,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "schedulable": true,
+      "dynamic": false
+    }
+  },
+  "q47_timeline_identical": true,
+  "q47_timeline_violations": [],
+  "duration_spread_pct": 0.0,
+  "condx_compiler_distinct": true,
+  "semantics": {
+    "alone": true,
+    "full": true,
+    "altorder": true,
+    "noreset": true,
+    "pre_4p0": true,
+    "post_4p0": true,
+    "ctrl_p1": true
+  },
+  "GATE_S_stage0": "PASS"
+}

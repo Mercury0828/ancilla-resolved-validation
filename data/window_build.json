@@ -1,0 +1,299 @@
+{
+  "qpu_seconds_spent": 0,
+  "window_ns": [
+    192,
+    224,
+    256,
+    288,
+    320,
+    384,
+    512
+  ],
+  "reference_ns": [
+    0,
+    4000
+  ],
+  "arms": [
+    [
+      "w0_full",
+      0,
+      true,
+      2048,
+      10,
+      5.8132000000000005e-05
+    ],
+    [
+      "w0_alone",
+      0,
+      false,
+      2048,
+      10,
+      5.8132000000000005e-05
+    ],
+    [
+      "w192_full",
+      192,
+      true,
+      2048,
+      8,
+      6.005200000000001e-05
+    ],
+    [
+      "w192_alone",
+      192,
+      false,
+      2048,
+      8,
+      6.005200000000001e-05
+    ],
+    [
+      "w224_full",
+      224,
+      true,
+      2048,
+      8,
+      6.0372000000000004e-05
+    ],
+    [
+      "w224_alone",
+      224,
+      false,
+      2048,
+      8,
+      6.0372000000000004e-05
+    ],
+    [
+      "w256_full",
+      256,
+      true,
+      2048,
+      8,
+      6.0692e-05
+    ],
+    [
+      "w256_alone",
+      256,
+      false,
+      2048,
+      8,
+      6.0692e-05
+    ],
+    [
+      "w288_full",
+      288,
+      true,
+      2048,
+      8,
+      6.1012000000000005e-05
+    ],
+    [
+      "w288_alone",
+      288,
+      false,
+      2048,
+      8,
+      6.1012000000000005e-05
+    ],
+    [
+      "w320_full",
+      320,
+      true,
+      2048,
+      8,
+      6.1332e-05
+    ],
+    [
+      "w320_alone",
+      320,
+      false,
+      2048,
+      8,
+      6.1332e-05
+    ],
+    [
+      "w384_full",
+      384,
+      true,
+      2048,
+      8,
+      6.197200000000001e-05
+    ],
+    [
+      "w384_alone",
+      384,
+      false,
+      2048,
+      8,
+      6.197200000000001e-05
+    ],
+    [
+      "w512_full",
+      512,
+      true,
+      2048,
+      8,
+      6.325200000000001e-05
+    ],
+    [
+      "w512_alone",
+      512,
+      false,
+      2048,
+      8,
+      6.325200000000001e-05
+    ],
+    [
+      "w4000_full",
+      4000,
+      true,
+      2048,
+      10,
+      9.8132e-05
+    ],
+    [
+      "w4000_alone",
+      4000,
+      false,
+      2048,
+      10,
+      9.8132e-05
+    ]
+  ],
+  "profile": {
+    "w0": {
+      "gap_ns": 0,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        44
+      ],
+      "duration_full_s": 5.8132000000000005e-05,
+      "duration_alone_s": 5.8132000000000005e-05,
+      "is_reference": true
+    },
+    "w192": {
+      "gap_ns": 192,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        428
+      ],
+      "duration_full_s": 6.005200000000001e-05,
+      "duration_alone_s": 6.005200000000001e-05,
+      "is_reference": false
+    },
+    "w224": {
+      "gap_ns": 224,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        492
+      ],
+      "duration_full_s": 6.0372000000000004e-05,
+      "duration_alone_s": 6.0372000000000004e-05,
+      "is_reference": false
+    },
+    "w256": {
+      "gap_ns": 256,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        556
+      ],
+      "duration_full_s": 6.0692e-05,
+      "duration_alone_s": 6.0692e-05,
+      "is_reference": false
+    },
+    "w288": {
+      "gap_ns": 288,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        620
+      ],
+      "duration_full_s": 6.1012000000000005e-05,
+      "duration_alone_s": 6.1012000000000005e-05,
+      "is_reference": false
+    },
+    "w320": {
+      "gap_ns": 320,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        684
+      ],
+      "duration_full_s": 6.1332e-05,
+      "duration_alone_s": 6.1332e-05,
+      "is_reference": false
+    },
+    "w384": {
+      "gap_ns": 384,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        812
+      ],
+      "duration_full_s": 6.197200000000001e-05,
+      "duration_alone_s": 6.197200000000001e-05,
+      "is_reference": false
+    },
+    "w512": {
+      "gap_ns": 512,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        1068
+      ],
+      "duration_full_s": 6.325200000000001e-05,
+      "duration_alone_s": 6.325200000000001e-05,
+      "is_reference": false
+    },
+    "w4000": {
+      "gap_ns": 4000,
+      "q47_pad_s": 1.2000000000000002e-08,
+      "matched": true,
+      "true_sep_ns": [
+        8044
+      ],
+      "duration_full_s": 9.8132e-05,
+      "duration_alone_s": 9.8132e-05,
+      "is_reference": true
+    }
+  },
+  "q47": 47,
+  "content_hash": {
+    "w0_full": "2263e93fdaf294e1",
+    "w0_alone": "09214ab1257000d6",
+    "w192_full": "fb7744fb14b057fd",
+    "w192_alone": "f499c9d33f7c7b22",
+    "w224_full": "12ad63c1f9a6b76a",
+    "w224_alone": "8844489f828b22cc",
+    "w256_full": "9651f23c88b55d10",
+    "w256_alone": "bd696cd438f2b481",
+    "w288_full": "771dc9f7abb9a22d",
+    "w288_alone": "943de2ea34863f54",
+    "w320_full": "0ffb94df469f6ea4",
+    "w320_alone": "03987cb856ac7871",
+    "w384_full": "edcf9108b040301e",
+    "w384_alone": "7760bc5209f56e9c",
+    "w512_full": "890c895027e00077",
+    "w512_alone": "778e0f54d65e9dd1",
+    "w4000_full": "42f9c70b6f490145",
+    "w4000_alone": "a94003733e23e84f"
+  },
+  "alone_matched": true,
+  "separation_ok": true,
+  "semantics": {
+    "w0_full": true,
+    "w0_alone": true,
+    "w256_full": true,
+    "w256_alone": true,
+    "w4000_full": true,
+    "w4000_alone": true
+  },
+  "estimated_charge_s": 211.73444018855503,
+  "n_jobs": 8,
+  "rule": "U_0.95[max(|theta_b(g)/theta_b(0)|, |theta_a(g)/theta_a(0)|)] < 0.20 at THREE ADJACENT gaps; one point is a root, not a basin",
+  "axis_note": "true separation = 2*declared + 44 ns on the A12 layout",
+  "GATE_S": "PASS"
+}

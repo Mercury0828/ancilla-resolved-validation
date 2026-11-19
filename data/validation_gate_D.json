@@ -1,0 +1,39 @@
+{
+  "n_pubs": 2176,
+  "n_cells": 5760,
+  "n_blocks": 64,
+  "A1_every_config_every_job": true,
+  "A2_every_config_every_quartile": true,
+  "A3_R2_per_column": {
+    "patch1": 0.0008091811260791948,
+    "patch2": 0.000979134837294282,
+    "patch3": 0.0012649928827582757,
+    "patch4": 0.0009168577058624727,
+    "patch5": 0.000993319099140244,
+    "load": 0.013890582737222545,
+    "theta_1": 0.010086325424064624,
+    "theta_2": 0.0042168371818684935,
+    "theta_4": 0.013117073166244664,
+    "theta_5": 0.011617317445658304
+  },
+  "A3_max_R2_treatment_on_nuisance": 0.013890582737222545,
+  "A3_worst_column": "load",
+  "A4_max_design_VIF": 1.011327426878053,
+  "A5_carryover_load": -0.007292218682216525,
+  "A5_carryover_residual_overlap": 0.04264119846967149,
+  "A6": {
+    "TRAIN": {
+      "worst_typeI_upper": 0.04871950799013799,
+      "worst_power": 1.0,
+      "median_CI_halfwidth_pct": 0.11442753284944818
+    },
+    "HOLDOUT": {
+      "worst_typeI_upper": 0.03909908189320836,
+      "worst_power": 1.0,
+      "median_CI_halfwidth_pct": 0.34985884681282275
+    }
+  },
+  "A6_pass": true,
+  "A3_note": "carried as a documented exception if above 0.01; justified by A6, per the rule that an unreachable threshold is set by simulation",
+  "GATE_D": "PASS"
+}

@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "transport at the low-overhead operating point; measured separations verified inside the qualified basin"
+}

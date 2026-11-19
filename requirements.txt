@@ -1,0 +1,3 @@
+# The deposit needs NumPy and nothing else. These are the versions the deposited artefacts were
+# computed with; the analysis uses no API that has changed across recent releases.
+numpy==2.2.6      # requires Python 3.10 or later

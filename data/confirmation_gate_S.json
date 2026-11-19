@@ -1,0 +1,56 @@
+{
+  "invariant_target_ops_identical": true,
+  "invariant_sentinel_ops_identical": true,
+  "semantics": {
+    "|A|=0,Z": {
+      "distinct_outcomes": 1,
+      "pass": true
+    },
+    "|A|=0,X": {
+      "distinct_outcomes": 1,
+      "pass": true
+    },
+    "|A|=5,Z": {
+      "distinct_outcomes": 1,
+      "pass": true
+    },
+    "|A|=5,X": {
+      "distinct_outcomes": 1,
+      "pass": true
+    }
+  },
+  "decoder_self_test": {
+    "got": {
+      "clean": 0,
+      "single_data_error": 0,
+      "single_meas_error": 0,
+      "three_data_errors": 1,
+      "two_data_errors_boundary": 0
+    },
+    "expected": {
+      "clean": 0,
+      "single_data_error": 0,
+      "single_meas_error": 0,
+      "three_data_errors": 1,
+      "two_data_errors_boundary": 0
+    },
+    "pass": {
+      "clean": true,
+      "single_data_error": true,
+      "single_meas_error": true,
+      "three_data_errors": true,
+      "two_data_errors_boundary": true
+    }
+  },
+  "decoder_negative_case_present": true,
+  "GATE_S": "PASS",
+  "layout_drift": {
+    "layout": "FROZEN to A12 (not re-derived)",
+    "patch_qubits": 54,
+    "sentinels": 69,
+    "patch_qubits_still_under_5pct": 54,
+    "sentinels_still_under_5pct": 67,
+    "worst_patch_readout_now": 0.03271484375,
+    "live_reselection_would_differ": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "qpu_seconds_spent": 0,
+  "arms": [
+    "base",
+    "full",
+    "cx",
+    "mr",
+    "drive",
+    "idle",
+    "pad",
+    "ctrl1",
+    "ctrl3"
+  ],
+  "q47": 47,
+  "pad_s": 1.2e-08,
+  "round_s": 5.472e-06,
+  "profile": {
+    "base": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 415
+    },
+    "full": {
+      "duration_s": 5.8132000000000005e-05,
+      "q47_idle_s": 2.7720000000000003e-06,
+      "n_ops_total": 815
+    },
+    "cx": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 735
+    },
+    "mr": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 495
+    },
+    "drive": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 505
+    },
+    "idle": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 505
+    },
+    "pad": {
+      "duration_s": 5.8132000000000005e-05,
+      "q47_idle_s": 2.7720000000000003e-06,
+      "n_ops_total": 425
+    },
+    "ctrl1": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 815
+    },
+    "ctrl3": {
+      "duration_s": 5.8012000000000006e-05,
+      "q47_idle_s": 2.652e-06,
+      "n_ops_total": 815
+    }
+  },
+  "config_qpy": {
+    "base": "975e6159b22ee442",
+    "full": "342e5acd386f603f",
+    "cx": "d8f4fe1fb37027a6",
+    "mr": "29658e639c982f54",
+    "drive": "b6701ccc56029562",
+    "idle": "7c2c485b7becd616",
+    "pad": "46f08605f7182883",
+    "ctrl1": "a58a5a9ebae245e8",
+    "ctrl3": "9d4511c0d5c9bb29"
+  },
+  "invariant_target_ops_identical": true,
+  "gate": "PASS"
+}

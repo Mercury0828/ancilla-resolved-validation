@@ -1,0 +1,51 @@
+{
+  "qpu_seconds_spent_this_analysis": 0,
+  "n_pubs": 768,
+  "table": {
+    "Z_g0": {
+      "theta_b": -0.8569719288937959,
+      "theta_a": 0.7042779088517174
+    },
+    "Z_g4000": {
+      "theta_b": -0.0015790572354534942,
+      "theta_a": 0.01708513868577764
+    },
+    "X_g0": {
+      "theta_b": -0.8008505014079912,
+      "theta_a": 0.7445301660166641
+    },
+    "X_g4000": {
+      "theta_b": -0.004287906145267827,
+      "theta_a": 0.004262389262844358
+    }
+  },
+  "critical_value": 2.45,
+  "D_b": 0.05612142748580473,
+  "D_a": 0.040252257164946736,
+  "se_b": 0.016850173724674483,
+  "se_a": 0.04014101091631218,
+  "z_b": 3.330614176613713,
+  "z_a": 1.0027713863227434,
+  "U95_absD_b": 0.08388845703359235,
+  "U95_absD_a": 0.1063587689981777,
+  "margin_b": 0.21424298222344898,
+  "margin_a": 0.17606947721292934,
+  "A0_anchor": true,
+  "A1_difference": true,
+  "A2_equivalence": true,
+  "A3_suppression": {
+    "Z": {
+      "U95_b": 0.02160632775681456,
+      "U95_a": 0.0966042283919988,
+      "suppressed": true
+    },
+    "X": {
+      "U95_b": 0.011831592198894656,
+      "U95_a": 0.01593664687346173,
+      "suppressed": true
+    }
+  },
+  "A3_both": true,
+  "verdict": "CONTRADICTORY: difference and equivalence both declared -- inspect the margins",
+  "n_bootstrap": 4000
+}

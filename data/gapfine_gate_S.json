@@ -1,0 +1,5 @@
+{
+  "gate": "PASS",
+  "qpu_seconds_spent": 0,
+  "note": "confirmation plus fine gap sweep; comparison within stratum only"
+}
